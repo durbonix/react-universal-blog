@@ -1,0 +1,24 @@
+{
+  "name": "react-universal-blog",
+  "version": "1.0.0",
+  "description": "React universal or isomorphic blog ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durbonix/react-universal-blog.gi.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "node"
+  ],
+  "author": "Robert Durbin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durbonix/react-universal-blog.gi/issues"
+  },
+  "homepage": "https://github.com/durbonix/react-universal-blog.gi#readme"
+}
