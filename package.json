@@ -2,7 +2,7 @@
   "name": "react-universal-blog",
   "version": "1.0.0",
   "description": "React universal or isomorphic blog ",
-  "main": "index.js",
+  "main": "app-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/durbonix/react-universal-blog.gi/issues"
   },
-  "homepage": "https://github.com/durbonix/react-universal-blog.gi#readme"
+  "homepage": "https://github.com/durbonix/react-universal-blog.gi#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  }
 }
