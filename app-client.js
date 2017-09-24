@@ -9,7 +9,7 @@ import routes from './routes';
 const Routes = (
     <Router history={history}>
         { routes }
-    git</Router>
+    </Router>
 );
 
 const app = document.getElementById('app')
