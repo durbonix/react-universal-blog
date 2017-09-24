@@ -1,16 +1,19 @@
+// app-client.js
 import React from 'react';
 import { render } from 'react-dom';
-import { Router } from 'react-router';
-import createBrowserHistory from 'history/lib/createBrowserHistory';
+import { BrowserRouter as Router } from 'react-router-dom';
+import createBrowserHistory from 'history/createBrowserHistory';
 const history = createBrowserHistory();
 
-import routes from './routes';
+// Routes
+//import routes from './routes';
+//console.log(routes);
 
-const Routes = (
-    <Router history={history}>
-        { routes }
+const Routes = () => (
+    <Router>
+      <div>hi</div>
     </Router>
 );
 
-const app = document.getElementById('app')
-render(Routes, app);
+const app = document.getElementById('app');
+//render(Routes, app);
